@@ -1,6 +1,7 @@
 # rebarCages
 Intern HomeWork
 
+- Open index.html
 - Make sure device connecting to internet
 - Adding cage write the name of the cage and press add button
 - Starting need to select both cage and station and press start
