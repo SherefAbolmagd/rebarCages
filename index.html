@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebartek</title>
+</head>
+
+<body>
+    <h1>Choose Your Workstation</h1>
+    <ul style="list-style: none;">
+        <li><input type="radio" name="ws" value="A">Station A</li>
+        <li><input type="radio" name="ws" value="B">Station B</li>
+        <li><input type="radio" name="ws" value="C">Station C</li>
+    </ul>
+
+    <br>
+
+    <h1>Choose Your Cage</h1>
+    <input type="text" id="name">
+    <button id="add">Add Cage</button>
+    <ul style="list-style: none;" id="cages">
+    </ul>
+
+    <br>
+
+    <button id="start">Start</button>
+    <button id="end">End</button>
+
+    <br>
+    <br>
+    <br>
+
+    <table border="1" id="record">
+        <thead>
+            <th>Cages</th>
+            <th>Station A</th>
+            <th >Station B</th>
+            <th>Station C</th>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
