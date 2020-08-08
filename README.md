@@ -9,3 +9,4 @@ Intern HomeWork
 - Time will be updated in the table once end button is pressed
 - System Allow multiple Entry for the same cage
 - System not allow to end if didn't start
+- The time of check in and check out saved in the local storage
